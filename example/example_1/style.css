@@ -1,0 +1,177 @@
+html {
+    min-width: 776px; /*设置元素的最新宽度*/
+}
+
+/*
+页面属性：边距为0，字体颜色为黑色，字体大小14像素，行高为字体大小的1.6倍，居中对齐，背景颜色为天蓝色，字体为宋体
+ */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    background: #6D89DD;
+    font-family: "宋体", "新宋体", arial, verdana, sans-serif;
+}
+
+/*
+超链接属性：无边距，无边框，无下划线，定义正常状态下的颜色、访问过的颜色和鼠标经过的颜色并显示下划线
+ */
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+a:link {
+    color: #E66133;
+}
+
+a:visited {
+    color: #E66133;
+}
+
+a:hover {
+    color: #637DBC;
+    text-decoration: none;
+}
+
+/*
+预定义格式属性：浅灰色背景，无首行缩进，内边距为0，外边距为0，右缩进为一个字体大小，字体颜色为蓝色
+ */
+pre {
+    text-indent: 0;
+    background: #dddddd;
+    padding: 0;
+    margin: 0;
+    color: blue;
+
+}
+
+#top {
+    width: 776px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    height: 12px;
+    background: url("images/bg_top1.gif") #ffffff repeat-x left top;
+    overflow: hidden;
+}
+
+#top1 {
+    width: 776px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    height: 121px;
+}
+
+#main {
+    width: 776px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.2em 0;
+    background: url("images/bg_dot1.gif") #ffffff repeat left top;
+    text-align: left;
+}
+
+#content {
+    width: 710px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    background: #ffffff;
+}
+
+#title {
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 24px;
+    color: #00A06B;
+    text-align: left;
+    border-bottom: solid #9EA3C1 2px;
+}
+
+.sub {
+    color: #00A06B;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    padding: 1em 2em 0;
+    background: url("images/0.gif") #ffffff no-repeat 1em 74%;
+}
+
+.content {
+    text-indent: 2em;
+    font-size: 13px;
+    margin-left: 2em;
+    padding: 1em 6px;
+}
+
+#gotop {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    height: 2em;
+    font-size: 12px;
+    text-align: right;
+}
+
+#footer {
+    clear: both;
+    width: 776px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    background: url("images/bg_bottom.gif") #ffffff repeat right top;
+    text-align: center;
+    height: 39px;
+    color: #dddddd;
+}
+
+#copyright {
+    width: 776px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 0 0 0;
+    background: #ffffff;
+    text-align: center;
+    height: 60px;
+    line-height: 13px;
+    font-size: 12px;
+    color: #9EA0BB;
+}
+
+#copyright a {
+    color: #667EBE;
+}
+
+.box {
+    background: url("images/nt.gif") repeat;
+}
+
+.tl {
+    background: url("images/tl.gif") no-repeat top left;
+}
+
+.tr {
+    background: url("images/tr.gif") no-repeat top right;
+}
+
+.bl {
+    background: url("images/bl.gif") no-repeat bottom left;
+}
+
+.br {
+    background: url("images/br.gif") no-repeat bottom right;
+}
+
+body, td, th {
+    font-family: "宋体", "新宋体", arial, verdana, sans-serif;
+}
