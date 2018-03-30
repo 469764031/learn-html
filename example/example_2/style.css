@@ -1,0 +1,90 @@
+ul {
+    list-style: none;
+}
+
+.button {
+    display: block;
+    float: left;
+    position: relative;
+    height: 25px;
+    width: 80px;
+    margin: 0 10px 18px 0;
+    text-decoration: none;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+}
+
+.gray, .gray:hover {
+    color: #555555;
+    border-bottom: 4px solid #b2b1b1;
+    background: #eeeeee;
+}
+
+.gray:hover {
+    background: #e2e2e2;
+}
+
+.button:before, .button:after {
+    content: '';
+    position: absolute;
+    left: -1px;
+    height: 25px;
+    width: 80px;
+    bottom: -1px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.button:before {
+    height: 23px;
+    bottom: -4px;
+    border-top: 0;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: 0 1px 1px 0 #bfbfbf;
+    -moz-box-shadow: #bfbfbf;
+    box-shadow: #bfbfbf;
+}
+
+.button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.gray .gray:hover .gray:visited {
+    color: #555555;
+    border-bottom: 4px solid #b2b1b1;
+    text-shadow: 0 1px 0 #fafafa;
+    background: #eeeeee;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#e2e2e2));
+    background: -moz-linear-gradient(top, #eeeeee, #e2e2e2);
+    box-shadow: inset 1px 1px 0 #ff55ff;
+}
+
+
+.gray:hover {
+    background: #e2e2e2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#eeeeee));
+    background: -moz-linear-gradient(top, #e2e2e2, #eeeeee);
+}
+
+.button:active {
+    border: none;
+    bottom: -4px;
+    margin-bottom: 22px;
+    -webkit-box-shadow: 0 1px 1px #ffffff;
+    -moz-box-shadow: 0 1px 1px #ffffff;
+    box-shadow: 1px 1px 0 #ffffff, inset 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.button:active:before, .button:active:after {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
